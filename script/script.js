@@ -107,7 +107,7 @@ const displayAllWords = (words) => {
 
     <span onclick="loadWordDetails(${word.id})" class="bg-cyan-200 p-2 rounded-md"><i class="fa-solid fa-circle-info"></i></span>
 
-    <span onclick="pronounceWord(${word.word})" class="bg-cyan-200 p-2 rounded-md"><i class="fa-solid fa-volume-high"></i></span>
+    <span onclick="pronounceWord('${word.word}')" class="bg-cyan-200 p-2 rounded-md"><i class="fa-solid fa-volume-high"></i></span>
 
     </div>
     </div>`;
